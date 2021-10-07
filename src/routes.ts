@@ -1,5 +1,5 @@
 const route = {
-  dashboard: '/dashboard',
+  dashboard: '/',
   customers: '/customers',
   message: '/message',
   help: '/help',

@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex h-full">
       <Sidebar isShown={isShown} />
-      <div className="flex-1 flex flex-col">
+      <div className="flex flex-col flex-1">
         <Header toggleSidebar={() => { setIsShown(isShown => !isShown) }} />
         <Switch>
           <Route exact path={route.dashboard}>
